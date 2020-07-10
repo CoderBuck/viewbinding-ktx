@@ -1,7 +1,6 @@
 # viewbinding-ktx
 
-[![Release](https://jitpack.io/v/CoderBuck/viewbinding-ktx.svg)]
-(https://jitpack.io/#CoderBuck/viewbinding-ktx)
+[![Release](https://jitpack.io/v/CoderBuck/viewbinding-ktx.svg)](https://jitpack.io/#CoderBuck/viewbinding-ktx)
 
 ## 添加依赖
 
