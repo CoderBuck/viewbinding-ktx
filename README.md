@@ -3,7 +3,7 @@
 [![Release](https://jitpack.io/v/CoderBuck/viewbinding-ktx.svg)](https://jitpack.io/#CoderBuck/viewbinding-ktx)
 
 A viewbinding delegate. This is based on [Simple one-liner ViewBinding in Fragments and Activities with Kotlin](https://medium.com/@Zhuinden/simple-one-liner-viewbinding-in-fragments-and-activities-with-kotlin-961430c6c07c)
-by [Zhuinden](https://github.com/Zhuinden)
+by [Zhuinden](https://github.com/Zhuinden).
 
 ## Gradle
 
@@ -26,7 +26,7 @@ implementation 'com.github.coderbuck:viewbinding-ktx:1.0.0'
 
 ## Usage
 
-in AppCompatActivity or Fragment,
+in AppCompatActivity or Fragment
 
 ```kotlin
 val binding by viewBinding(ActivityMainBinding::bind)
@@ -35,7 +35,7 @@ val binding by viewBinding(ActivityMainBinding::bind)
 
 ## Limitations
 
-In fragment you can only use the `binding` field after `onCreateView` and before `onDestroyView` (not included)
+In fragment you can only use the `binding` field after `onCreateView` and before `onDestroyView` (not included).
 
 ## License
 
