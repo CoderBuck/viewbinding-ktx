@@ -33,7 +33,9 @@ val binding by viewBinding(ActivityMainBinding::bind)
 ```
 > note: replace ActivityMainBinding with your own
 
-##
+## Limitations
+
+In fragment you can only use the `binding` field after `onCreateView` and before `onDestroyView` (not included)
 
 ## License
 
