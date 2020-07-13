@@ -21,7 +21,26 @@ allprojects {
 app build.gradle
 
 ```groovy
-implementation 'com.github.coderbuck:viewbinding-ktx:1.0.0'
+android {
+    // ...
+    buildFeatures {
+        viewBinding true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+dependencies {
+    // ...
+    implementation 'com.github.coderbuck:viewbinding-ktx:1.0.0'
+}
 ```
 
 ## Usage
