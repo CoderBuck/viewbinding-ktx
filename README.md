@@ -19,13 +19,16 @@ implementation 'com.github.coderbuck:viewbinding-ktx:1.0.0'
 
 ## Usage
 
+in AppCompatActivity or Fragment,
+
 ``` kotlin
-// AppCompatActivity or Fragment
 val binding by viewBinding(ActivityMainBinding::bind)
 ```
+> note: replace ActivityMainBinding with your own
 
 ## License
 
+```
    Copyright 2020 CoderBuck
 
    Licensed under the Apache License, Version 2.0 (the "License");
@@ -39,4 +42,4 @@ val binding by viewBinding(ActivityMainBinding::bind)
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-
+```
