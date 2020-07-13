@@ -2,18 +2,25 @@
 
 [![Release](https://jitpack.io/v/CoderBuck/viewbinding-ktx.svg)](https://jitpack.io/#CoderBuck/viewbinding-ktx)
 
-## Add dependency
+A viewbinding delegate. This is based on [Simple one-liner ViewBinding in Fragments and Activities with Kotlin](https://medium.com/@Zhuinden/simple-one-liner-viewbinding-in-fragments-and-activities-with-kotlin-961430c6c07c)
+by [Zhuinden](https://github.com/Zhuinden)
 
-``` groovy
-// project
+## Gradle
+
+project build.gradle
+
+```groovy
 allprojects {
     repositories {
         // ...
         maven { url 'https://jitpack.io' }
     }
 }
+```
 
-// app
+app build.gradle
+
+```groovy
 implementation 'com.github.coderbuck:viewbinding-ktx:1.0.0'
 ```
 
@@ -21,10 +28,12 @@ implementation 'com.github.coderbuck:viewbinding-ktx:1.0.0'
 
 in AppCompatActivity or Fragment,
 
-``` kotlin
+```kotlin
 val binding by viewBinding(ActivityMainBinding::bind)
 ```
 > note: replace ActivityMainBinding with your own
+
+##
 
 ## License
 
